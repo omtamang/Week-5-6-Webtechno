@@ -24,9 +24,8 @@ body {
     padding: 40px 40px 40px 42px;
 }
 #content3 {
-    padding-left: 110px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding: 40px;
+  justify-content: flex-end;
 }
 img {
     height: 400px;
@@ -55,8 +54,14 @@ Responsive Web Design.
 */
 
 @media screen and (max-width: 1024px) {
-    .button a {
-      font-size: 16px;
+    #content1,#content2,#content3 {
+      padding-left: 120px;
+    }
+    img {
+      width: 200px;
+    }
+    #container {
+      padding-left: 50px;
     }
   }
   
@@ -66,11 +71,11 @@ Responsive Web Design.
     }
   
     .content-wrapper,
-    figure {
+    img {
       width: 100%;
     }
   
-    figure {
+    img {
       height: 300px;
     }
   }
